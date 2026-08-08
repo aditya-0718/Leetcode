@@ -7,7 +7,5 @@ class Solution:
             rev=rev*10+digit
             x=x//10
 
-        if rev==original:
-            return True
-        else:
-            return False
+        return rev==original
+          
